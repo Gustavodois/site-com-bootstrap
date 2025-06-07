@@ -24,17 +24,29 @@
 
         <h2>Imagens</h2>
         <img
-            src="https://images.pexels.com/photos/414061/pexels-photo-414061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            src="https://images.pexels.com/photos/414061/pexels-photo-414061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid img-thumbnail">
         <h2>Imagem com texto ao lado</h2>
-        <img
-            src="https://images.pexels.com/photos/1493832/pexels-photo-1493832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores consequuntur commodi doloremque omnis
-            delectus quo ex quas, doloribus veritatis rerum ab ad deserunt voluptas eaque in quae eos, fugit aspernatur.
-        </p>
+
+        <div class="row">
+            <div class="col">
+                <img src="https://images.pexels.com/photos/1493832/pexels-photo-1493832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid img-thumbnail">
+            </div>
+            <div class="col align-content-center">
+                <p class="text-center display-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores consequuntur commodi doloremque omnis delectus quo ex quas, doloribus veritatis rerum ab ad deserunt voluptas eaque in quae eos, fugit aspernatur.</p>
+            </div>
+        </div>       
+
+
         <h2>Formulários</h2>
-        <label>Usuários:</label><input type="text">
-        <label>Senha:</label><input type="password">
-        <button>Acessar Sistema</button>
+        <div class="mb-3">
+            <label class="form-label">Usuários:</label><input type="text" class="form-control w-25">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Senha:</label><input type="password" class="form-control w-25">
+        </div>
+        <button type="button" class="btn btn-primary btn-lg w-25 mb-5">Acessar Sistema</button>
+
+       
         <footer>
             <hr>
         </footer>
